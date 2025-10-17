@@ -1,0 +1,29 @@
+[project]
+name = "llm-tools-llm-functions"
+version = "0.1"
+description = ""
+readme = "README.md"
+authors = [{name = "Frank Ully"}]
+license = "Apache-2.0"
+classifiers = []
+requires-python = ">=3.10"
+dependencies = [
+    "llm",
+    "pyyaml"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/c0ffee0wl/llm-tools-llm-functions"
+Changelog = "https://github.com/c0ffee0wl/llm-tools-llm-functions/releases"
+Issues = "https://github.com/c0ffee0wl/llm-tools-llm-functions/issues"
+CI = "https://github.com/c0ffee0wl/llm-tools-llm-functions/actions"
+
+[project.entry-points.llm]
+tools_llm_functions = "llm_tools_llm_functions"
+
+[project.optional-dependencies]
+test = ["pytest"]
