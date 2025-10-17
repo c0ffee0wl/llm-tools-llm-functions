@@ -16,6 +16,9 @@ dependencies = [
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+py-modules = ["llm_tools_llm_functions", "config"]
+
 [project.urls]
 Homepage = "https://github.com/c0ffee0wl/llm-tools-llm-functions"
 Changelog = "https://github.com/c0ffee0wl/llm-tools-llm-functions/releases"
